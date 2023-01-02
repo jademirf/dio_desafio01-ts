@@ -9,11 +9,6 @@ export abstract class DioAccount {
     this.accountNumber = accountNumber
   }
 
-  setName = (name: string): void => {
-    this.name = name
-    console.log('Name updated!')
-  }
-
   getName = (): string => {
     return this.name
   }
